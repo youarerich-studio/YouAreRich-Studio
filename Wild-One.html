@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YouAreRich Studio - Wild-One Demo</title>
+    <style>
+        /* 透過 jsDelivr 繞過 GitHub 的 MIME 限制，精準下載並解鎖 Wild-One 狂野體 */
+        @font-face {
+            font-family: 'Wild-One';
+            src: url('https://cdn.jsdelivr.net/gh/youarerich-studio/FontFunk@main/Wild-1-Regular.ttf') format('truetype');
+        }
+
+        /* 堅守 LibreOffice 的極致敷衍與白底美學 */
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: "Times New Roman", serif;
+            padding: 40px;
+            margin: 0;
+        }
+
+        /* 第一排字：中等字 */
+        .first-line {
+            font-size: 16pt;
+            margin-bottom: 60px;
+        }
+
+        /* 第二排字：大字，這一次絕對能傲慢地閃耀 Wild-One 筆觸 */
+        .second-line {
+            font-family: 'Wild-One', sans-serif;
+            font-size: 32pt;
+            margin-bottom: 80px;
+            word-wrap: break-word;
+        }
+
+        /* 第三排字：回到中等字 */
+        .third-line {
+            font-size: 16pt;
+        }
+
+        /* 下載連結：依舊保持最頹廢的原始底線超連結 */
+        a {
+            color: #0000ee;
+            text-decoration: underline;
+        }
+        a:visited {
+            color: #551a8b;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="first-line">
+        Wild-One is a “Hand Writing” style font.
+    </div>
+
+    <div class="second-line">
+        True rapper never lies, but secrets in the mouth tight.
+    </div>
+
+    <div class="third-line">
+        <a href="https://github.com/youarerich-studio/FontFunk/releases/download/font/Wild-1-Regular.ttf">download</a>
+    </div>
+
+</body>
+</html>
