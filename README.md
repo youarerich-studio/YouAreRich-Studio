@@ -1,6 +1,6 @@
 ## Yo there 
 
-- 🔭 I’m currently working on ...fixibale world.
+- 🔭 I’m currently working on ...fixable world.
 - 🌱 I’m currently learning ...surviving.
 - 👯 I’m looking to collaborate on ...laughing.
 - 🤔 I’m looking for help with ...money.
